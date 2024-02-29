@@ -109,6 +109,7 @@ void merge_add(int arr[], int low, int mid, int high) {
     for (int i = 0; i < len; i++) {
         arr[low + i] = temp[i];
     }
+    free(temp);
 }
 
 void merge_sort(int arr[], int low, int high) {

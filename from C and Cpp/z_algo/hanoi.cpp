@@ -63,4 +63,5 @@ void hanoi(long n, char begin, char mid, char end) {
             push(s, up.n - 1, up.begin, up.end, up.mid);
         }
     }
+    free(s);
 }
